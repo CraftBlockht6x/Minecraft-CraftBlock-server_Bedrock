@@ -45,8 +45,27 @@
         <p>感谢你访问我们的Minecraft服务器！本页面将为你提供有关服务器的详细信息和加入指南。</p>
         
         <h2>服务器详情</h2>
-        <p><strong>服务器名称:</strong> CraftBlock服务器</p>
-        <p><strong>服务器版本:</strong> Minecraft基岩版1.21.21</p>
+            <script src="minecraft-server-checker.js"></script>
+<div id="minecraft-server-checker"></div>
+    <script>
+        initMinecraftServerChecker({
+            containerId: 'minecraft-server-checker', // 容器ID
+            defaultServers: [
+                { address: "play.craftblock.totalh.net:59954" },
+            ],
+            displaySettings: {
+                motd: true,
+                version: true,
+                players: true,
+                gamemode: true,
+                edition: true,
+                software: true,
+                plugins: true,
+                delay: true
+            },
+            allowUserInput: true
+        });
+    </script>
         <p><strong>官网:</strong> <a href="http://craftblock.totalh.net" target="_blank">craftblock.totalh.net</a></p>
         <p>有关服务器的详细地址信息，请访问我们的官网。</p>
 
