@@ -8,7 +8,7 @@
 
 - **服务器名称**: CraftBlock服务器
 - **服务器版本**: Minecraft基岩版 1.21.21
-- **官网**: [craftblock.totalh.net](http://craftblock.totalh.net)
+- **官网**: [craftblock.chaxil.top](https://craftblock.chaxil.top)
 
 有关服务器的详细信息，请访问我们的官网。
 
